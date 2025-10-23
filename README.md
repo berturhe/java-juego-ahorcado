@@ -1,18 +1,22 @@
-## Getting Started
+# Juego del ahorcado en JAVA!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Juego de consola que consiste en descubrir la palabra oculta ingresando letras una a una.
 
-## Folder Structure
+- En caso  ingrese una letra correcta, se le permitirá continuar con el juego hasta encontrar la solución. 
+- En caso ingrese una letra incorrecta, se acercará al limite de intentos permitidos, por lo que perderá el juego.
 
-The workspace contains two folders by default, where:
+Al final del juego se le mostrará la palabra oculta.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Herramientas Utilizadas:
+- Clase **Scanner**.
+- Clase **String** y sus métodos.
+- Arreglos.
+- Bucles.
+- Condicionales.
+- validación
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Créditos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este proyecto fue desarrollado gracias al tutorial de YouTube:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+[JAVA desde cero | Curso tutorial completo gratis con Spring, Hibernate, PostgreSQL, Docker y más](https://www.youtube.com/watch?v=BdNqW63ZaB0) por [[Sergie Code](https://www.youtube.com/@SergieCode)].
